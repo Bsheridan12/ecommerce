@@ -1,5 +1,5 @@
-brian = User.create!(username: "bsheridan12", email: "bsheridan12@gmail.com", password_hash: "test")
-mike = User.create!(username: "mike", email: "mike12@gmail.com", password_hash: "test")
+brian = User.create!(username: "bsheridan12", email: "bsheridan12@gmail.com", password: "test")
+mike = User.create!(username: "mike", email: "mike12@gmail.com", password: "test")
 
 transportation = Category.create(name: "Transportation")
 video_games = Category.create(name: "Video Games")
